@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet icon" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script defer src="./assets/javascript/script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container__play-path">
+            <div class="container__play-path__plate">
+                <p>Now playing:</p>
+                <h2>Song Name</h2>
+                <div class="container__play-path__plate__main">
+                    <img src="" alt="" class="">
+                </div>
+                <div class="container__play-path__plate__btn-block">
+                    <button class="repeatSong"><i class="fas fa-undo"></i></button>
+                    <button class="prevSong"><i class="fas fa-step-backward"></i></button>
+                    <button class="playMusic" >
+                        <i style="display:none;" class="fas fa-pause"></i>
+                        <i class="fas fa-play"></i>
+                    </button>
+                    <button class="nextSong"><i class="fas fa-step-backward"></i></button>
+                    <button class="randomSong"><i class="fas fa-random"></i></button>
+                    <input id="progress" type="range" name="" value="0" step="1" min="1" max="100">
+                    <audio src=""></audio>
+                </div>
+            </div>
+        </div>
+
+        <div class="container__songs-list">
+            <ul class="container__songs-list__menu">
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
